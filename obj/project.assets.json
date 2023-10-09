@@ -469,24 +469,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\José\\.nuget\\packages\\": {}
+    "C:\\Users\\josei\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\José\\Desktop\\FACULTAD 2023\\Taller2\\TP7\\tl2-tp07-2023-josepro752\\tl2-tp07-2023-josepro752.csproj",
+      "projectUniqueName": "C:\\Users\\josei\\OneDrive\\Escritorio\\FACULTAD\\Taller de Lenguajes 2\\PRACTICA\\TP7\\tl2-tp07-2023-josepro752\\tl2-tp07-2023-josepro752\\tl2-tp07-2023-josepro752.csproj",
       "projectName": "tl2-tp07-2023-josepro752",
-      "projectPath": "C:\\Users\\José\\Desktop\\FACULTAD 2023\\Taller2\\TP7\\tl2-tp07-2023-josepro752\\tl2-tp07-2023-josepro752.csproj",
-      "packagesPath": "C:\\Users\\José\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\José\\Desktop\\FACULTAD 2023\\Taller2\\TP7\\tl2-tp07-2023-josepro752\\obj\\",
+      "projectPath": "C:\\Users\\josei\\OneDrive\\Escritorio\\FACULTAD\\Taller de Lenguajes 2\\PRACTICA\\TP7\\tl2-tp07-2023-josepro752\\tl2-tp07-2023-josepro752\\tl2-tp07-2023-josepro752.csproj",
+      "packagesPath": "C:\\Users\\josei\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\josei\\OneDrive\\Escritorio\\FACULTAD\\Taller de Lenguajes 2\\PRACTICA\\TP7\\tl2-tp07-2023-josepro752\\tl2-tp07-2023-josepro752\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\José\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\josei\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files\\dotnet\\sdk\\7.0.308\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -533,7 +534,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
       }
     }
   }
