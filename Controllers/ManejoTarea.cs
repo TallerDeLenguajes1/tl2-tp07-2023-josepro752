@@ -23,7 +23,8 @@ public class ManejoTareaController : ControllerBase
 // ● Listar todas las tareas.
 // ● Listar todas las tareas completadas.
 
-    [HttpPost(Name = "CrearTarea")]
+    [HttpPost]
+    [Route ("CrearTarea")]
     public ActionResult<Tarea> CrearTarea(Tarea tarea) {
         var t = manejoTarea.CrearTarea(tarea);
         if (t != null) {
@@ -32,7 +33,8 @@ public class ManejoTareaController : ControllerBase
         return BadRequest(t);
     }
 
-    [HttpGet(Name = "GetTareaID")]
+    [HttpGet]
+    [Route ("GetTareaID")]
     public ActionResult<Tarea> GetTareaID(int id) {
         var t = manejoTarea.GetTareaID(id);
         if (t != null) {
@@ -40,7 +42,9 @@ public class ManejoTareaController : ControllerBase
         }
         return BadRequest(t);
     }
-    [HttpPut(Name = "ActualizarTarea")]
+
+    [HttpPut]
+    [Route ("ActualizarTarea")]
     public ActionResult<Tarea> ActualizarTarea(int id, EstadoTarea estadoTarea) {
         var t = manejoTarea.ActualizarTarea(id,estadoTarea);
         if (t != null) {
@@ -48,7 +52,9 @@ public class ManejoTareaController : ControllerBase
         }
         return BadRequest(t);
     }
-    [HttpDelete(Name = "EliminarTarea")]
+
+    [HttpDelete]
+    [Route ("EliminarTarea")]
     public ActionResult<Tarea> EliminarTarea(int id) {
         var t = manejoTarea.EliminarTarea(id);
         if (t) {
@@ -56,7 +62,9 @@ public class ManejoTareaController : ControllerBase
         }
         return BadRequest();
     }
-    [HttpGet(Name = "GetTareas")]
+
+    [HttpGet]
+    [Route ("GetTareas")]
     public ActionResult<Tarea> GetTareas() {
         var t = manejoTarea.GetTareas();
         if (t != null) {
@@ -64,7 +72,9 @@ public class ManejoTareaController : ControllerBase
         }
         return BadRequest(t);
     }
-    [HttpGet(Name = "GetTareasCompletadas")]
+
+    [HttpGet]
+    [Route ("GetTareasCompletadas")]
     public ActionResult<Tarea> GetTareasCompletadas() {
         var t = manejoTarea.GetTareasCompletadas();
         if (t != null) {
